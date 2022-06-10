@@ -1,0 +1,101 @@
+*{
+   padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 0;
+    
+}
+.first>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+nav{
+
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+   
+}
+li>input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+.big{
+    font-weight:900;
+    font-size: large;
+}
+.fonts{
+    font-weight: 400;    
+}
+.icons{
+    height: 40px;
+}
+#you{
+    color: red;
+    font-size: bold;
+
+}
+#side{
+    color: black;
+}
+.second>ul{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.secCont .second{
+    position: fixed;
+    width: 100px;
+    height: 100%;
+ 
+
+}
+.second ul li{
+    padding: 15px; 
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.third>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.button{
+   border: 2px solid rgba(242, 239, 239, 0.946);
+    color:black;
+    background-color:rgba(248, 243, 243, 0.937);
+    cursor: pointer;
+    
+}
+button {
+    padding: 2px;
+    border-radius: 10px;
+}
+.third{
+    padding-left: 140px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+   
+}
+.fourth{
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.fourth>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
